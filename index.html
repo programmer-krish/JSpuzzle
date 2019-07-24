@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <meta content="Puzzle game for stage1" name="Joker-game">
+   <link rel="stylesheet" href="css/main.css">
+   <script src="js/script.js"></script>
+</head>
+
+<body>
+   <center>
+      <input type="number" name="rows" id="columns" value="3" style="text-align: center;height:45px;width:228px" />
+      <input type="button" value="Format" style="height:50px;width:228px" onclick= "format()" />
+   </center>
+   <center>
+      <h1> Game Begins</h1>
+   </center>
+   <center>
+      <div id="table" class="table">
+         <!-- <div id="row1" style="display: table-row;">
+            <div id="cell11" class="tile1" draggable="true" ondragstart="drag(event)" ondrop="drop(event)"
+               ondragover="allowDrop(event)"></div>
+            <div id="cell12" class="tile2" draggable="true" ondragstart="drag(event)" ondrop="drop(event)"
+               ondragover="allowDrop(event)"></div>
+            <div id="cell13" class="tile3" draggable="true" ondragstart="drag(event)" ondrop="drop(event)"
+               ondragover="allowDrop(event)"></div>
+         </div>
+         <div id="row2" style="display: table-row;">
+            <div id="cell21" class="tile4" draggable="true" ondragstart="drag(event)" ondrop="drop(event)"
+               ondragover="allowDrop(event)"></div>
+            <div id="cell22" class="tile5" draggable="true" ondragstart="drag(event)" ondrop="drop(event)"
+               ondragover="allowDrop(event)"></div>
+            <div id="cell23" class="tile6" draggable="true" ondragstart="drag(event)" ondrop="drop(event)"
+               ondragover="allowDrop(event)"></div>
+         </div>
+         <div id="row3" style="display: table-row;">
+            <div id="cell31" class="tile7" draggable="true" ondragstart="drag(event)" ondrop="drop(event)"
+               ondragover="allowDrop(event)"></div>
+            <div id="cell32" class="tile8" draggable="true" ondragstart="drag(event)" ondrop="drop(event)"
+               ondragover="allowDrop(event)"></div>
+            <div id="cell33" class="tile9" draggable="true" ondragstart="drag(event)" ondrop="drop(event)"
+               ondragover="allowDrop(event)"></div>
+         </div> -->
+      </div>
+      <br />
+      <button onClick="shuffle();" style="height:50px;width:228px">
+         <h4>Shuffle</h4>
+      </button>
+      <button onclick="solve();" style="height:50px;width:228px">
+         <h4>Solve</h4>
+      </button>
+
+   </center>
+</body>
+
+</html>
